@@ -3,7 +3,8 @@
 CrossFuzz: Cross-Contract Fuzzing for Smart Contract Vulnerability Detection.
 
 ### Installation
-
+* OS: Ubuntu 20.04 LTS
+* Python 3.8
 * Install env and dependencies, follow the instructions below:
 
 ```shell
