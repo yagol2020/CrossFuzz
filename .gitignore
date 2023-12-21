@@ -145,7 +145,6 @@ experiments
 .idea
 trans.json
 *.dot
-*.png
 *.csv
 *.json
 *.pdf
