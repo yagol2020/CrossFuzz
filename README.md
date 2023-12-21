@@ -179,3 +179,8 @@ python CrossFuzz.py examples/T.sol E 0.4.26 5 60 ./res.json /usr/local/bin/solc 
 
 * This repo is based on [ConFuzzius](https://github.com/christoftorres/ConFuzzius). `ConFuzzius` is licensed under the
   MIT License - see the `LICENSE` file for details.
+
+
+### Demo
+
+[![IMAGE ALT TEXT](https://github.com/yagol2020/CrossFuzz/blob/dev/demo_video/demo.png)](https://www.bilibili.com/video/BV1TN4y1471X/?vd_source=af79c46b96f13e1f5cc69824cce8470f "Demo")
