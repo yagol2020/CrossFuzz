@@ -8,10 +8,13 @@ CrossFuzz: Cross-Contract Fuzzing for Smart Contract Vulnerability Detection.
 * Install env and dependencies, follow the instructions below:
 
 ```shell
-sudo apt install python3.8 python3-distutils python3-dev gcc
+sudo apt install python3.8 python3-distutils python3-dev gcc python3-pip python3-venv
+python3 -m venv myenv
+source myenv/bin/activate
 pip install -r requirements.txt
 solc-select install 0.4.26
 solc-select use 0.4.26
+mkdir fuzzer/result/res.json
 ```
 
 * config your solc bin path in `config.py` in `SOLC_BIN_PATH` variable.
