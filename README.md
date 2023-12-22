@@ -17,7 +17,7 @@ pip3 install wheel
 pip3 install -r requirements.txt
 solc-select install 0.4.26
 solc-select use 0.4.26
-mkdir fuzzer/result/res.json
+mkdir fuzzer/result/
 ```
 
 * config your solc bin path in `config.py` in `SOLC_BIN_PATH` variable.
