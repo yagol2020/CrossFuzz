@@ -1,6 +1,10 @@
 web3==4.8.3
 py-evm==0.3.0a1
 py-solc-x==1.1.1
+eth-hash==0.3.3
+eth-utils==1.9.5
+eth-rlp==0.2.1
+eth-bloom==1.0.4
 z3-solver==4.8.5.0
 psutil==5.7.2
 networkx==2.5.1

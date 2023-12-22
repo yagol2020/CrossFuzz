@@ -9,9 +9,12 @@ CrossFuzz: Cross-Contract Fuzzing for Smart Contract Vulnerability Detection.
 
 ```shell
 sudo apt install python3.8 python3-distutils python3-dev gcc python3-pip python3-venv
+git clone https://github.com/yagol2020/CrossFuzz.git
+cd CrossFuzz/
 python3 -m venv myenv
 source myenv/bin/activate
-pip install -r requirements.txt
+pip3 install wheel
+pip3 install -r requirements.txt
 solc-select install 0.4.26
 solc-select use 0.4.26
 mkdir fuzzer/result/res.json
