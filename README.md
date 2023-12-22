@@ -6,6 +6,7 @@ CrossFuzz: Cross-Contract Fuzzing for Smart Contract Vulnerability Detection.
 * OS: Ubuntu 20.04 LTS
 * Python 3.8
 * Install env and dependencies, follow the instructions below:
+* A demo video, showing the build and use process of `CrossFuzz`, can be viewed [here](https://www.bilibili.com/video/BV13u4y1K7Sj).
 
 ```shell
 sudo apt install python3.8 python3-distutils python3-dev gcc python3-pip python3-venv
@@ -143,7 +144,7 @@ if __name__ == "__main__":
   it:
 
 ```shell
-python CrossFuzz.py examples/T.sol E 0.4.26 5 60 ./res.json /usr/local/bin/solc auto
+python CrossFuzz.py examples/T.sol E 0.4.26 5 60 ./res.json /usr/local/bin/solc auto 0
 ```
 
 * You can manually set the constructor arguments of the contract under tested by changing the last parameter of the
@@ -182,3 +183,7 @@ python CrossFuzz.py examples/T.sol E 0.4.26 5 60 ./res.json /usr/local/bin/solc 
 
 * This repo is based on [ConFuzzius](https://github.com/christoftorres/ConFuzzius). `ConFuzzius` is licensed under the
   MIT License - see the `LICENSE` file for details.
+
+### Demo
+
+[![Demo](https://github.com/yagol2020/CrossFuzz/blob/dev/demo_video/demo.png)](https://www.bilibili.com/video/BV13u4y1K7Sj "Demo")
